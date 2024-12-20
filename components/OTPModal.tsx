@@ -73,7 +73,7 @@ const OtpModal = ({
           </AlertDialogTitle>
           <AlertDialogDescription className="subtitle-2 text-center text-light-100">
             We&apos;ve sent a code to{" "}
-            <span className="pl-1 text-brand">{email}</span>
+            <span className="pl-1 text-gray-900">{email}</span>
           </AlertDialogDescription>
         </AlertDialogHeader>
 
@@ -112,7 +112,7 @@ const OtpModal = ({
               <Button
                 type="button"
                 variant="link"
-                className="pl-1 text-brand"
+                className="pl-1 text-gray-900"
                 onClick={handleResendOtp}
               >
                 Click to resend

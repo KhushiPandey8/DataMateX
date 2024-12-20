@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply bg-white text-dark-200 min-h-screen;
+    @apply bg-gray-900 text-dark-200 min-h-screen;
   }
   .remove-scrollbar::-webkit-scrollbar {
     width: 0px;
@@ -132,7 +132,7 @@
     @apply mx-auto max-w-7xl px-5;
   }
   .primary-btn {
-    @apply bg-brand hover:bg-brand-100 transition-all rounded-full button !important;
+    @apply bg-gray-900 hover:bg-gray-800 transition-all rounded-full button !important;
   }
   .flex-center {
     @apply flex items-center justify-center;
@@ -153,19 +153,19 @@
     @apply text-light-100 pt-2 body-2 w-full !important;
   }
   .shad-form-message {
-    @apply text-red body-2 ml-4 !important;
+    @apply text-gray-900 body-2 ml-4 !important;
   }
   .shad-alert-dialog {
     @apply space-y-4 max-w-[95%] sm:w-fit rounded-xl md:rounded-[30px] px-4 md:px-8 py-10 bg-white outline-none !important;
   }
   .shad-submit-btn {
-    @apply bg-brand button hover:bg-brand-100 transition-all rounded-full !important;
+    @apply bg-gray-900 button hover:bg-gray-900 transition-all rounded-full !important;
   }
   .shad-otp {
     @apply w-full flex gap-1 sm:gap-2 justify-between !important;
   }
   .shad-otp-slot {
-    @apply text-[40px] font-medium rounded-xl ring-brand shadow-drop-1 text-brand-100 justify-center flex border-2 border-light-300 size-12 md:size-16 gap-5 !important;
+    @apply text-[40px] font-medium rounded-xl ring-gray-900 shadow-drop-1 text-gray-900 justify-center flex border-2 border-light-300 size-12 md:size-16 gap-5 !important;
   }
 
   .shad-sheet {
@@ -260,7 +260,7 @@
     @apply text-center text-light-100 !important;
   }
   .delete-file-name {
-    @apply font-medium text-brand-100 !important;
+    @apply font-medium text-gray-900 !important;
   }
   .modal-cancel-button {
     @apply h-[52px] flex-1 rounded-full bg-white text-light-100 hover:bg-transparent !important;
@@ -317,13 +317,13 @@
 
   /* Chart */
   .chart {
-    @apply flex items-center rounded-[20px] bg-brand p-5 text-white md:flex-col xl:flex-row !important;
+    @apply flex items-center rounded-[20px] bg-gray-900 p-5 text-white md:flex-col xl:flex-row !important;
   }
   .chart-container {
     @apply mx-auto aspect-square w-[180px] text-white xl:w-[250px] !important;
   }
   .polar-grid {
-    @apply first:fill-white/20 last:fill-brand !important;
+    @apply first:fill-white/20 last:fill-gray-900 !important;
   }
   .chart-details {
     @apply flex-1 items-start px-3 py-0 sm:px-5 lg:p-3 xl:pr-5 !important;
@@ -353,7 +353,7 @@
   }
 
   .error-toast {
-    @apply bg-red !rounded-[10px] !important;
+    @apply bg-gray-900 !rounded-[10px] !important;
   }
 
   /* Header */
@@ -364,7 +364,7 @@
     @apply flex-center min-w-fit gap-4 !important;
   }
   .sign-out-button {
-    @apply flex-center h-[52px] min-w-[54px] items-center rounded-full bg-brand/10 p-0 text-brand shadow-none transition-all hover:bg-brand/20 !important;
+    @apply flex-center h-[52px] min-w-[54px] items-center rounded-full bg-brand/10 p-0 text-gray-900 shadow-none transition-all hover:bg-brand/20 !important;
   }
 
   /* Mobile Navigation */
@@ -378,7 +378,7 @@
     @apply aspect-square w-10 rounded-full object-cover !important;
   }
   .mobile-nav {
-    @apply h5 flex-1 gap-1 text-brand !important;
+    @apply h5 flex-1 gap-1 text-gray-900 !important;
   }
   .mobile-nav-list {
     @apply flex flex-1 flex-col gap-4 !important;
@@ -387,7 +387,7 @@
     @apply flex text-light-100 gap-4 w-full justify-start items-center h5 px-6 h-[52px] rounded-full !important;
   }
   .mobile-sign-out-button {
-    @apply h5 flex h-[52px] w-full items-center gap-4 rounded-full bg-brand/10 px-6 text-brand shadow-none transition-all hover:bg-brand/20 !important;
+    @apply h5 flex h-[52px] w-full items-center gap-4 rounded-full bg-brand/10 px-6 text-gray-900 shadow-none transition-all hover:bg-brand/20 !important;
   }
 
   /* OTP Modal */
@@ -417,7 +417,7 @@
     @apply remove-scrollbar hidden h-screen w-[90px] flex-col overflow-auto px-5 py-7 sm:flex lg:w-[280px] xl:w-[325px] !important;
   }
   .sidebar-nav {
-    @apply h5 mt-9 flex-1 gap-1 text-brand !important;
+    @apply h5 mt-9 flex-1 gap-1 text-gray-900 !important;
   }
   .sidebar-nav-item {
     @apply flex text-light-100 gap-4 rounded-xl lg:w-full justify-center lg:justify-start items-center h5 lg:px-[30px] h-[52px] lg:rounded-full !important;
@@ -430,7 +430,7 @@
   }
 
   .shad-active {
-    @apply bg-brand text-white shadow-drop-2 !important;
+    @apply bg-gray-900 text-white shadow-drop-2 !important;
   }
 
   /* Sort */
