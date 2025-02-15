@@ -23,16 +23,12 @@ const Page = async ({ searchParams, params }: SearchParamProps) => {
           <p className="body-1">
             Total: <span className="h5">0 MB</span>
           </p>
-
           <div className="sort-container">
             <p className="body-1 hidden text-light-200 sm:block">Sort by:</p>
-
             <Sort />
           </div>
         </div>
       </section>
-
-      {/* Render the files */}
       {files.total > 0 ? (
         <section className="file-list">
           {files.documents.map((file: Models.Document) => (
