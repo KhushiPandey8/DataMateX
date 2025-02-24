@@ -37,4 +37,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 # About Repo Content 
-  - DataMateX 🚀A cutting-edge file storage application built using Next.js and Appwrite, offering seamless and secure storage solutions similar to Google Drive. Effortlessly upload, manage, and access your files with a user-friendly interface!
+  - DataMateX 🚀A cutting-edge file storage application built using Next.js and Appwrite, offering seamless and secure storage solutions similar to Google Drive. Effortlessly upload, manage, and access your files with a user-friendly interface!!
+
+### Feel Free to Contribute to this Repo
